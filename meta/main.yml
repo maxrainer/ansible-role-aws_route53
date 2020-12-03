@@ -1,0 +1,18 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  role_name: aws_route53
+  author: Markus Rainer
+  description: AWS cloud provision route53 DNS for Ansible demos
+  company: Red Hat
+  min_ansible_version: 2.9
+  license: MIT
+
+  platforms: 
+    - name: GenericUNIX
+      versions:
+        - all
+        
+  galaxy_tags: [aws, ansible, demo, lab, networking, dns]
